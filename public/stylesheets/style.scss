@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {	margin: 0;padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit;	font-size: 100%;font-family: inherit; vertical-align: baseline; }
+:focus { outline: 0; }
+
+body { line-height: 1.3; color: black; }
+
+table {	border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left;	font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q {	quotes: "" ""; }
+/* ol, ul { list-style: none; } */
+
+.left { float:left;	display:inline; }
+.right { float:right; display:inline; }
+.center { text-align: center; }
+.imagereplaced { text-indent:-999999px; }
+
+/*clear fix*/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+
+/*General*/
+a, a:visited, a:active {  -webkit-transition: all 0.25s ease-out; }
+a:hover { color: #3c4348; }
+body.index { background:transparent url(/images/bg.jpg) repeat-x top left; min-height:2000px;position:relative;}
+body.index div#wrapper { margin: 0px auto; width: 960px;  }
+
+button.defaultButton { background:#23272b; height:36px; padding:0px 20px 0px 20px; -moz-border-radius: 5px; -webkit-border-radius: 5px;  border:none; cursor:pointer; }
+button.defaultButton:hover { opacity: 0.5; -moz-opacity: 0.5; filter:alpha(opacity=50); }
+button.defaultButton { -webkit-transition: all 0.25s ease-out; }
+button.defaultButton.small { padding:0px 14px 0px 14px; height:24px; -moz-border-radius: 5px; -webkit-border-radius: 3px; }
+
+button.defaultButton span.buttonLabel a.anchorlink { color:#c8cbce; }
+button.defaultButton.small span.buttonLabel { font-size:2em; color:#c8cbce; text-transform: uppercase; display:inline-block; line-height:2.2; }
+
+a.anchorlink { display:inline-block; background:#23272b; height:36px; padding:0px 20px 0px 20px; -moz-border-radius: 5px; -webkit-border-radius: 5px;  border:none; cursor:pointer; }
+a.anchorlink:hover { opacity: 0.5; -moz-opacity: 0.5;  filter:alpha(opacity=50); }
+a.anchorlink { -webkit-transition: all 0.25s ease-out; }
+a.anchorlink.small { padding:3px 14px 0px 14px; height:24px; -moz-border-radius: 5px; -webkit-border-radius: 3px; margin-right:4px; }
+
+
+
+/*Header*/
+header.page { display: block; margin-bottom:80px; }
+header h1#logo { background:url(/images/logo.png) no-repeat top left; height:100px; width:174px; margin:0px 0px 0px 0px; }
+header nav ul { float: right; margin:-24px 0px 0px 0px; list-style:none; list-style-type:none; }
+header nav ul li { float:left; display:inline; margin-right:5px; }
+header nav ul li:last-child { margin-right:0px; }
+
+/*Summary*/
+section#summary { display: block; margin-bottom:10px; margin-top:20px; }
+section#summary header h2 { width:957px; height:210px; background:url(/images/summary.png) no-repeat top center;  margin-top:40px;  }
+section#summary blockquote { margin-top:30px; }
+section#summary blockquote span#quote { display: block; width:957px; height:76px; background:url(/images/testimonial-quote-bilforumet.png) no-repeat top center; }
+section#summary blockquote cite.subtitle { display:inline-block; clear:both; margin-top:0px; color:#8D9296; font-size:0.8em; margin-bottom:80px; }
+
+/*Services*/
+section#services { display: block; margin-bottom: 50px; }
+section#services header { margin-top: 40px; float:left; }
+section#services span.punctuation { display:block; margin-left:20px; margin-right:20px; margin-top: 0px; float:left;}
+section#services ul#services-overview { list-style:none; list-style-type:none;  margin-left:0px; margin-top:-20px; }
+section#services ul#services-overview li { width:200px; min-height:262px; background:#f4f4f5; display:inline-block; margin-right:15px; padding:20px 12px 0px 12px; }
+section#services ul#services-overview li.last { margin-right:0px; }
+section#services ul#services-overview li:last-child { margin-right:0px; }
+section#services ul#services-overview li h3 { margin:0px 0px 10px 0px; }
+section#services ul#services-overview li p { margin:10px 0px 30px 0px; }
+section#services ul#services-overview li button { margin:0px 0px 30px 0px; }
+section#services ul#services-overview li span.smallBold { display:block; padding-bottom:20px; background:transparent url(/images/stars-divider.png) no-repeat bottom center;}
+
+/*Portfolio*/
+section#portfolio { margin-top:10px; display:block; }
+section#portfolio header h2 { display:inline-block; }
+section#portfolio span.punctuation { display:inline-block; }
+section#portfolio ul#portfolio-list { list-style:none; list-style-type:none; margin-top:20px;}
+section#portfolio ul#portfolio-list li { width:320px;  height:335px; float:left; display:inline; }
+section#portfolio ul#portfolio-list li section.item-description { width:285px; height:280px;  text-align:left; margin-left:5px; display:block; padding:10px 10px 30px 0px; }
+section#portfolio ul#portfolio-list li section.item-description h3 { margin-bottom:4px; }
+section#portfolio ul#portfolio-list li section.item-description span.subtitle { margin-bottom:0px; }
+section#portfolio ul#portfolio-list li section.item-description p { margin-bottom:8px; }
+section#portfolio ul#portfolio-list li a img { -webkit-transition: all 0.25s ease-out; }
+section#portfolio ul#portfolio-list li a:hover { color: #3c4348;  }
+section#portfolio ul#portfolio-list li a:hover img { opacity: 0.5; -moz-opacity: 0.5;   }
+
+/*Contact*/
+section#contact { display:block; margin-top:100px;   }
+section#contact header { margin-bottom:30px; }
+section#contact form fieldset input[type=text] { height:24px; background:#fff; border:none; padding-left:6px; width:408px; margin-right:10px; margin-bottom:11px; }
+section#contact form fieldset textarea { height:97px; background:#fff; border:none;   width:408px; margin-left:-3px; margin-right:10px; margin-bottom:20px; padding-left:5px; padding-top:6px; }
+section#contact form fieldset input[type=text]:focus,body.index section#contact form fieldset textarea:focus { background:#959799; color:#fff; }
+section#contact form fieldset input[type=text].small { width:219px; }
+section#contact form fieldset input[type=text], body.index section#contact form fieldset textarea { -webkit-transition: all 0.25s ease-out; }
+section#contact form fieldset select { width:420px; margin-left:-4px;  margin-bottom:20px; }
+section#contact form fieldset label { display:inline-block; height:33px; width:130px; padding-right:20px; vertical-align: top; }
+section#contact form fieldset label.dd { margin-top:-6px; }
+section#contact form fieldset button#submitForm { margin-left:480px; margin-top:-10px; }
+section#contact form fieldset label.error { display:none; width:0px; }
+section#contact form fieldset input.error { background-color:#ff9898; color:#fff; }
+section#contact div.formcontainer p, body.index section#contact div.formcontainer legend { display:none; }
+section#contact div.formcontainer form fieldset div.form-label, body.index section#contact div.formcontainer form fieldset div.form-input { display:inline-block;}
+section#contact div.formcontainer form fieldset div.form-textarea { display:inline-block;}
+section#contact button#quotebutton { margin-left:500px; margin-top:-12px; }
+section#contact div#contactinfo { width:313px; }
+section#contact div#contactinfo span.subtitle { margin-bottom:30px; }
+section#contact div#contactinfo div#details { min-height:73px; width:273px; background:#353d40; padding:20px; }
+
+/*Footer*/
+footer { text-align:center; display:block; position:absolute; bottom:19px; width:100%; margin:0px auto; overflow-x:hidden; }
+
+
+/*Typography*/
+
+body { font: normal normal normal 1em/1.5 Georgia, Times, ‘Times New Roman’, serif; color:#6d7377; }
+section#summary { font-size:1.1em;  text-align: center; }
+span.smallBold, span.smallBold a { font-size:0.9em; color: #949798; text-transform: uppercase; line-height:1.7; letter-spacing: 0.06em; -webkit-transition: all 0.25s ease-out; }
+span.smallBold a:hover { opacity: 0.5; -moz-opacity: 0.5; }
+	
+a.anchorlink { font-size:0.7em; color:#c8cbce; text-transform: uppercase; line-height:2.2; text-decoration: none; }
+a.anchorlink { color:#c8cbce; }
+a.anchorlink.small { font-size:1.2em; color:#c8cbce; text-transform: uppercase; line-height:1; text-decoration: none; }
+span.punctuation{ font-size:7em; color:#d7d9da; font-style:italic; }
+span.punctuation.large { font-size:10em; }
+
+section#services h2,section#portfolio header h2 { font-size:2.2em; color:#23272a; text-transform: uppercase; line-height:1.2; }
+section#portfolio header span.subtitle, section#contact span.subtitle  { color: #7b8184;  font-size:0.8em; font-style:italic; display:block; margin-top:-35px; }
+section#contact span.subtitle { margin-top:-10px; }
+section#services h3, section#portfolio h3 { font-size:1.4em; color: #3c4348; text-transform:uppercase; line-height:1.2; }
+section#portfolio h3 { font-size:1.6em;  }
+section#portfolio ul li { font-size:0.75em; }
+section#services ul#services-overview li p { font-family:Georgia; font-size:0.75em; font-weight: normal; color:#8d9296; line-height:1.4; }
+section#portfolio ul li a, section#portfolio ul li a:visited, section#portfolio ul li a:active { font-weight: normal; color:#8d9296; font-style:italic; text-decoration:underline; }
+section#portfolio ul li a:hover { text-decoration:none; }
+
+section#contact header h2, section#contact div#contactinfo h2 { font-size:1.9em; color: #e3e5e7; text-transform: uppercase; line-height:1.3; margin-bottom:10px; }
+section#contact form fieldset input[type=text], section#contact form fieldset textarea { font-family:Georgia, Times, "Times New Roman", serif; font-size:1em; font-style:italic; color:#a0a6ab; }
+section#contact form fieldset label { line-height:33px; font-family:Verdana, Tahoma; color:#f3f3f5; text-transform:uppercase; text-align:right; text-shadow:#24292b 1px 2px 2px; font-weight:bold; font-size:0.55em; }
+section#contact div#contactinfo div#details { color: #7b8184;  font-style: italic; line-height:1.6; font-size:0.9em; }
+section#contact div#contactinfo div#details a, section#contact div#contactinfo div#details a:active, section#contact div#contactinfo div#details a:visited { color:#d5d6d7; -webkit-transition: all 0.25s ease-out; }
+section#contact div#contactinfo div#details a:hover { text-decoration: none; color: #7b8184; } 
+footer { font-size:0.8em;  }
+footer, footer a, footer a:visited, body.index footer a:active { font-style:italic; margin-top:52px; line-height:1.7; }
+footer a:hover { text-decoration: none; color:#23272b;  }
+footer a { text-decoration: underline; color:#6d7377; }
+
+div.mailsuccess {  font-family:Verdana, Tahoma; color:#f3f3f5; text-transform:uppercase; text-shadow:#24292b 1px 2px 2px; font-weight:bold; margin-top:-30px; font-size:0.55em; }
+
+
+/*Hide Cufon elements while loading to prevent a visible delay*/
+.cufon-loading h1, .cufon-loading span.smallBold, .cufon-loading a.anchorlink, .cufon-loading span.buttonLabel, .cufon-loading h2.sumheader, .cufon-loading span.testimonial, .cufon-loading h2.servicesheader, .cufon-loading h3.servicesheadersmall, .cufon-loading h2.portfolioheader, .cufon-loading h3.portfoliosmall, .cufon-loading h2.contactheader, .cufon-loading h2.contactinfo, .cufon-loading div#contactheader span.smallBold  { visibility: hidden !important; }
